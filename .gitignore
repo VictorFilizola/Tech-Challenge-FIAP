@@ -143,9 +143,7 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# =========================
 # LaTeX auxiliary files
-# =========================
 *.aux
 *.bbl
 *.blg

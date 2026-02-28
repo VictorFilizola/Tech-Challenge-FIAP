@@ -1,0 +1,131 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{titlesec}
+
+% --- Setup Hyperlinks ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Amazon Bestsellers API Documentation},
+    pdfauthor={Victor Filizola}
+}
+
+% --- Setup Code Blocks ---
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{green!50!black},
+    keywordstyle=\color{blue},
+    stringstyle=\color{purple},
+    showstringspaces=false
+}
+
+% --- Title Information ---
+\title{\textbf{Machine Learning Engineering - Phase 1} \\ \Large Amazon Bestsellers REST API \& Data Analytics}
+\author{Victor Filizola}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This document details the architecture, API endpoints, and analytical capabilities of the Amazon Bestsellers REST API. The project fulfills the requirements for the Machine Learning Engineering Phase 1 challenge, providing a complete data pipeline from web scraping to statistical analysis.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% --- Section 1: Project Links ---
+\section{Project Links}
+\begin{itemize}
+    \item \textbf{GitHub Repository:} \url{https://github.com/your-username/Tech-Challenge-FIAP}
+    \item \textbf{Live API URL:} \url{https://your-api-url.onrender.com/docs}
+    \item \textbf{Architecture \& Demo Video:} \url{https://youtube.com/your-video-link}
+\end{itemize}
+
+% --- Section 2: Architecture ---
+\section{Architecture Design}
+The system is built on a decoupled architecture, separating the heavy data ingestion process from the fast data serving and analytical layers. 
+
+\subsection{Data Pipeline Flow}
+\begin{enumerate}
+    \item \textbf{Ingestion Layer (Selenium \& Edge):} A headless browser navigates to the Amazon Bestsellers page, executes JavaScript to bypass lazy-loading, and extracts up to 100 book records (Title, Author, Rating, Review Count, Price).
+    \item \textbf{Storage Layer (Local JSON):} The scraped data is serialized and cached locally in a \texttt{data/bestsellers.json} file. This prevents IP blocking from Amazon and ensures millisecond response times for end users.
+    \item \textbf{Processing \& Analytics Layer (Pandas):} The API reads the cached JSON, cleans the string data into numeric formats, and computes statistical metrics on the fly.
+    \item \textbf{Serving Layer (FastAPI):} Exposes the raw data and analytical views via a modern, self-documenting REST API.
+\end{enumerate}
+
+% NOTE: Place your architecture diagram image in the 'assets' folder and uncomment the lines below.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=\textwidth]{assets/architecture_diagram.png}
+%     \caption{System Architecture: From Ingestion to Analytical Views}
+% \end{figure}
+
+% --- Section 3: API Documentation ---
+\section{API Documentation}
+The API is built using FastAPI, which automatically generates interactive Swagger UI documentation at the \texttt{/docs} endpoint. Below is the specification of the available routes.
+
+\subsection{System Routes}
+\begin{itemize}
+    \item \texttt{GET /health}: Returns the operational status of the API.
+    \item \texttt{GET /info}: Returns metadata about the locally cached data, including the timestamp of the last successful scrape.
+\end{itemize}
+
+\subsection{Data Ingestion}
+\begin{itemize}
+    \item \texttt{POST /api/scrape}: Triggers the Selenium web scraper. It navigates through multiple pages, collects the top 100 books, and overwrites the local JSON cache. \textit{Note: This request takes several seconds to resolve due to browser execution.}
+    \item \texttt{GET /api/books}: Instantly retrieves the raw list of books from the local cache.
+\end{itemize}
+
+% --- Section 4: Analytical Views ---
+\section{Analytical Views}
+To provide a comprehensive descriptive analysis of the book sales, the monolithic analytics requirement was split into domain-specific endpoints.
+
+\subsection{\texttt{GET /api/analysis/general}}
+Provides high-level descriptive statistics of the scraped dataset.
+\begin{itemize}
+    \item Total books analyzed.
+    \item Average rating across the board.
+    \item Total cumulative reviews across all best-selling books.
+\end{itemize}
+
+\subsection{\texttt{GET /api/analysis/pricing}}
+Analyzes the financial distribution of the bestsellers.
+\begin{itemize}
+    \item Average and Median prices (identifying right-skewed pricing).
+    \item Minimum and Maximum price boundaries (identifying outliers like box sets).
+    \item 25th and 75th percentiles to establish standard market rates.
+\end{itemize}
+
+\subsection{\texttt{GET /api/analysis/authors}}
+Evaluates market share and author dominance within the top 100 list.
+\begin{itemize}
+    \item Number of unique authors.
+    \item The top 5 authors by sheer volume of books on the list.
+    \item The combined market share percentage of those top 5 authors.
+\end{itemize}
+
+\subsection{\texttt{GET /api/analysis/engagement}}
+Assesses the "Hype vs. Quality" matrix.
+\begin{itemize}
+    \item Identifies the top 5 most heavily reviewed books.
+    \item Identifies the highest-rated books (4.8 stars or higher) sorted by the highest volume of reviews, showcasing universally acclaimed titles.
+\end{itemize}
+
+\end{document}
