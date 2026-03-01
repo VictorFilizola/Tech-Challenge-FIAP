@@ -6,6 +6,9 @@ This project provides a containerized REST API built with FastAPI and Selenium. 
 ## Documentation
 * [View the Full Documentation (PDF)](documentation/main_doc.pdf)
 
+## Video
+* [View Video Explanation](https://youtu.be/Sh04T6n1ifU)
+
 ## Project Architecture
 
 ![Project Architecture Diagram](Project_Diagram.png)
