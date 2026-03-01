@@ -3,10 +3,15 @@
 
 This project provides a containerized REST API built with FastAPI and Selenium. It automates the extraction of the Top 100 Amazon Bestselling books, persists the collected data in a local JSON cache, and offers specialized analytical endpoints for market research.
 
+## Documentation
+* [View the Full Documentation (PDF)](documentation/main_doc.pdf)
+
 ## Project Architecture
-The system follows a Decoupled Data Pipeline pattern:
+
+![Project Architecture Diagram](Project_Diagram.png)
+
 1. Ingestion: Selenium utilizing Headless Edge bypasses lazy-loading to scrape 100 book records.
-2. Persistence: Scraped data is serialized and cached locally in `data/bestsellers.json`. This acts as a Temporary Local Dataset, ensuring analytical queries are rapid and do not trigger redundant web requests.
+2. Storage: Scraped data is serialized and cached locally in `data/bestsellers.json`. This acts as a Temporary Local Dataset, ensuring analytical queries are rapid and do not trigger redundant web requests.
 3. Analytics: Dedicated routes utilize Pandas to process the cached JSON and compute statistical metrics.
 
 ---
