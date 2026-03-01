@@ -1,9 +1,9 @@
-# 📚 Amazon Bestsellers: Data Pipeline & Analytics API
+# Amazon Bestsellers: Data Pipeline & Analytics API
 **Tech Challenge - Phase 1 | Machine Learning Engineering**
 
 This project is a containerized REST API built with **FastAPI** and **Selenium**. It automates the extraction of the Top 100 Amazon Bestselling books, persists the data in a local JSON cache, and provides specialized analytical endpoints for market research.
 
-## 🛠 Project Architecture
+## Project Architecture
 The system follows a **Decoupled Data Pipeline** pattern:
 1.  **Ingestion:** Selenium (Headless Edge) bypasses lazy-loading to scrape 100 records.
 2.  **Persistence:** Data is saved to `data/bestsellers.json`. This acts as a **Temporary Local Dataset**, ensuring that analytical queries are near-instant and do not trigger unnecessary web requests.
@@ -11,7 +11,7 @@ The system follows a **Decoupled Data Pipeline** pattern:
 
 ---
 
-## 🚀 Execution Guide
+## Execution Guide
 
 ### Option 1: Local Terminal (Virtual Environment)
 Ideal for quick testing if you have Microsoft Edge installed on Windows.
@@ -30,7 +30,7 @@ Ideal for quick testing if you have Microsoft Edge installed on Windows.
     ```
 4.  **Access:** `http://127.0.0.1:8000/docs`
 
-### Option 2: Docker Container (Recommended)
+### Option 2: Docker Container 
 The most stable method. It bundles a Linux-compatible Edge browser internally.
 1.  **Build Image:**
     ```bash
@@ -51,7 +51,7 @@ For remote testing without local installation:
 
 ---
 
-## 📖 API Workflow & Testing
+## API Workflow & Testing
 To properly test the application, follow this sequence in the Swagger UI:
 
 1.  **Check Health:** Execute `GET /health` to confirm the API is up.
@@ -63,6 +63,6 @@ To properly test the application, follow this sequence in the Swagger UI:
 
 ---
 
-## 📂 Data Storage Notice
+## Data Storage Notice
 The API generates a `data/bestsellers.json` file inside the environment. If running in **Docker**, this file exists inside the container's isolated filesystem. To persist this to your host machine, use a volume:
 `docker run -p 8000:8000 -v %cd%/data:/app/data amazon-api`
