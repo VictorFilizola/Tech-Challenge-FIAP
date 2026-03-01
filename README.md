@@ -65,10 +65,7 @@ The most stable method. It bundles a Linux-compatible Edge browser internally.
 
 ### Option 3: Cloud Deployment (Railway/Render)
 For remote testing without local installation:
-1.  Push this repository to GitHub.
-2.  Connect the repository to **Railway** or **Render**.
-3.  Ensure the `PORT` environment variable is set to `8000`.
-4.  **Live Docs:** `https://your-app-name.railway.app/docs`
+**Live Docs:** `https://tech-challenge-fiap-hhae.onrender.com/docs`
 
 ---
 
