@@ -9,6 +9,8 @@ The system follows a Decoupled Data Pipeline pattern:
 2. Persistence: Scraped data is serialized and cached locally in `data/bestsellers.json`. This acts as a Temporary Local Dataset, ensuring analytical queries are rapid and do not trigger redundant web requests.
 3. Analytics: Dedicated routes utilize Pandas to process the cached JSON and compute statistical metrics.
 
+---
+
 ## Project Structure
 ```text
 Tech-Challenge-FIAP/
@@ -27,7 +29,7 @@ Tech-Challenge-FIAP/
 ├── LICENSE                    # MIT License information
 ├── README.md                  # Project overview and guide
 └── requirements.txt           # Python dependency list
-
+```
 ---
 
 ## Execution Guide
