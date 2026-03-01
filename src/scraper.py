@@ -11,10 +11,21 @@ def scrape_amazon_bestsellers():
     books_data = []
     
     edge_options = Options()
+
+    # Settings for scraping without opening the browser window
     edge_options.add_argument("--headless")
-    edge_options.add_argument("--window-size=1920,1080")
-    edge_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edge/120.0.0.0")
+    edge_options.add_argument("--no-sandbox")
+
+    # These options are often necessary for running Selenium in environments with limited resource, like Docker containers
+    edge_options.add_argument("--disable-dev-shm-usage")
+    edge_options.add_argument("--disable-gpu")
     
+    # For seeing the elements in browser correctly
+    edge_options.add_argument("--window-size=1920,1080")
+    
+    # Used to not being kicked out of website for being a bot
+    edge_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edge/120.0.0.0")
+
     driver = webdriver.Edge(options=edge_options)
     
     try:
