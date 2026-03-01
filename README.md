@@ -1,13 +1,32 @@
-# Amazon Bestsellers: Data Pipeline & Analytics API
+# Amazon Bestsellers: Data Pipeline and Analytics API
 **Tech Challenge - Phase 1 | Machine Learning Engineering**
 
-This project is a containerized REST API built with **FastAPI** and **Selenium**. It automates the extraction of the Top 100 Amazon Bestselling books, persists the data in a local JSON cache, and provides specialized analytical endpoints for market research.
+This project provides a containerized REST API built with FastAPI and Selenium. It automates the extraction of the Top 100 Amazon Bestselling books, persists the collected data in a local JSON cache, and offers specialized analytical endpoints for market research.
 
 ## Project Architecture
-The system follows a **Decoupled Data Pipeline** pattern:
-1.  **Ingestion:** Selenium (Headless Edge) bypasses lazy-loading to scrape 100 records.
-2.  **Persistence:** Data is saved to `data/bestsellers.json`. This acts as a **Temporary Local Dataset**, ensuring that analytical queries are near-instant and do not trigger unnecessary web requests.
-3.  **Analytics:** Dedicated routes use Pandas to process the cached JSON.
+The system follows a Decoupled Data Pipeline pattern:
+1. Ingestion: Selenium utilizing Headless Edge bypasses lazy-loading to scrape 100 book records.
+2. Persistence: Scraped data is serialized and cached locally in `data/bestsellers.json`. This acts as a Temporary Local Dataset, ensuring analytical queries are rapid and do not trigger redundant web requests.
+3. Analytics: Dedicated routes utilize Pandas to process the cached JSON and compute statistical metrics.
+
+## Project Structure
+```text
+Tech-Challenge-FIAP/
+├── data/
+│   └── bestsellers.json       # Local JSON cache for scraped data
+├── documentation/
+│   ├── main_doc.pdf           # Compiled project documentation
+│   └── main_doc.tex           # LaTeX source for documentation
+├── src/
+│   ├── __init__.py
+│   ├── analysis.py            # Data cleaning and Pandas analytics logic
+│   ├── main.py                # FastAPI routes and application entry point
+│   └── scraper.py             # Selenium scraping logic
+├── .gitignore                 # Specifies files for Git to ignore
+├── Dockerfile                 # Instructions for containerization
+├── LICENSE                    # MIT License information
+├── README.md                  # Project overview and guide
+└── requirements.txt           # Python dependency list
 
 ---
 
