@@ -52,9 +52,9 @@ Ideal for quick testing if you have Microsoft Edge installed on Windows.
     ```
 3.  **Run Server:**
     ```bash
-    uvicorn src.main:app --reload
+    uvicorn src.main:app --reload --port 8080
     ```
-4.  **Access:** `http://127.0.0.1:8000/docs`
+4.  **Access:** `http://127.0.0.1:8080/docs`
 
 ### Option 2: Docker Container 
 The most stable method. It bundles a Linux-compatible Edge browser internally.

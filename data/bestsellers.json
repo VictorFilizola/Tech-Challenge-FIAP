@@ -17,14 +17,14 @@
         "title": "Stripped Down: A Raw Story of Reinvention, Redemption, and Rising from Rock Bottom to Success",
         "author": "Bunnie Xo",
         "rating": "4.8 out of 5 stars",
-        "rating_count": "2,023",
+        "rating_count": "2,026",
         "price": "$20.98"
     },
     {
         "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About",
         "author": "Mel Robbins",
         "rating": "4.6 out of 5 stars",
-        "rating_count": "39,093",
+        "rating_count": "39,094",
         "price": "$15.68"
     },
     {
@@ -35,18 +35,18 @@
         "price": "$13.98"
     },
     {
-        "title": "The Amazing Generation: Your Guide to Fun and Freedom in a Screen-Filled World",
-        "author": "Jonathan Haidt",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "260",
-        "price": "$11.24"
-    },
-    {
         "title": "How to Catch the Easter Bunny",
         "author": "Adam Wallace",
         "rating": "4.8 out of 5 stars",
         "rating_count": "10,746",
         "price": "$5.81"
+    },
+    {
+        "title": "The Amazing Generation: Your Guide to Fun and Freedom in a Screen-Filled World",
+        "author": "Jonathan Haidt",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "260",
+        "price": "$11.24"
     },
     {
         "title": "I Love You to the Moon and Back",
@@ -66,14 +66,14 @@
         "title": "The Correspondent: A Novel",
         "author": "Virginia Evans",
         "rating": "4.6 out of 5 stars",
-        "rating_count": "73,011",
+        "rating_count": "73,012",
         "price": "$25.18"
     },
     {
         "title": "Forgotten Home Apothecary : 250 Powerful Remedies at Your Fingertips",
         "author": "Dr. Nicole Apelian",
         "rating": "4.7 out of 5 stars",
-        "rating_count": "15,281",
+        "rating_count": "15,282",
         "price": "$37.00"
     },
     {
@@ -91,18 +91,18 @@
         "price": "$4.42"
     },
     {
-        "title": "We the Women: The Hidden Heroes Who Shaped America",
-        "author": "Norah O'Donnell",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "7",
-        "price": "$31.32"
-    },
-    {
         "title": "Reminders of Him: A Novel",
         "author": "Colleen Hoover",
         "rating": "4.7 out of 5 stars",
         "rating_count": "361,369",
         "price": "$9.03"
+    },
+    {
+        "title": "We the Women: The Hidden Heroes Who Shaped America",
+        "author": "Norah O'Donnell",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "7",
+        "price": "$31.32"
     },
     {
         "title": "The Very Hungry Caterpillar",
@@ -115,7 +115,7 @@
         "title": "The Housemaid",
         "author": "Freida McFadden",
         "rating": "4.5 out of 5 stars",
-        "rating_count": "687,419",
+        "rating_count": "687,421",
         "price": "$10.78"
     },
     {
@@ -133,18 +133,18 @@
         "price": "$19.87"
     },
     {
-        "title": "Brown Bear, Brown Bear, What Do You See?: 50th Anniversary Edition",
-        "author": "Bill Martin Jr.",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "55,987",
-        "price": "$4.09"
-    },
-    {
         "title": "You're My Little Lucky Charm",
         "author": "Nicola Edwards",
         "rating": "4.9 out of 5 stars",
         "rating_count": "1,505",
         "price": "$5.70"
+    },
+    {
+        "title": "Brown Bear, Brown Bear, What Do You See?: 50th Anniversary Edition",
+        "author": "Bill Martin Jr.",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "55,987",
+        "price": "$4.09"
     },
     {
         "title": "For the Fans! (KPop Demon Hunters): Official Storybook (Little Golden Book)",
@@ -171,15 +171,29 @@
         "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
         "author": "James Clear",
         "rating": "4.8 out of 5 stars",
-        "rating_count": "146,906",
+        "rating_count": "146,907",
         "price": "$18.88"
     },
     {
         "title": "The Tenant",
         "author": "Freida McFadden",
         "rating": "4.2 out of 5 stars",
-        "rating_count": "183,261",
+        "rating_count": "183,262",
         "price": "$7.70"
+    },
+    {
+        "title": "Heated Rivalry: Now Streaming on Crave and HBO Max (Game Changers, 2)",
+        "author": "Rachel Reid",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "52,412",
+        "price": "$14.24"
+    },
+    {
+        "title": "It's Not Easy Being a Bunny: An Early Reader Book for Kids (Beginner Books)",
+        "author": "Marilyn Sadler",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "20,707",
+        "price": "$5.98"
     },
     {
         "title": "Remarkably Bright Creatures: A Read with Jenna Pick",
@@ -203,25 +217,11 @@
         "price": "$22.40"
     },
     {
-        "title": "Heated Rivalry: Now Streaming on Crave and HBO Max (Game Changers, 2)",
-        "author": "Rachel Reid",
-        "rating": "4.7 out of 5 stars",
-        "rating_count": "52,412",
-        "price": "$14.24"
-    },
-    {
-        "title": "It's Not Easy Being a Bunny: An Early Reader Book for Kids (Beginner Books)",
-        "author": "Marilyn Sadler",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "20,707",
-        "price": "$5.98"
-    },
-    {
-        "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
-        "author": "Bessel van der Kolk M.D.",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "82,979",
-        "price": "$14.24"
+        "title": "My First Library: Boxset of 10 Board Books for Kids",
+        "author": "Wonder House Books",
+        "rating": "4.6 out of 5 stars",
+        "rating_count": "88,997",
+        "price": "$14.99"
     },
     {
         "title": "How To Draw Everything: 300 Drawings of Cute Stuff, Animals, Food, Gifts, and other Amazing Things | Book For Kids",
@@ -231,11 +231,25 @@
         "price": "$10.90"
     },
     {
+        "title": "Occult Feminism: The Secret History of Women's Liberation",
+        "author": "Rachel Wilson",
+        "rating": "4.3 out of 5 stars",
+        "rating_count": "267",
+        "price": "$16.95"
+    },
+    {
         "title": "The Frozen River: A GMA Book Club Pick: A Novel",
         "author": "Ariel Lawhon",
         "rating": "4.6 out of 5 stars",
         "rating_count": "107,166",
         "price": "$11.99"
+    },
+    {
+        "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+        "author": "Bessel van der Kolk M.D.",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "82,979",
+        "price": "$14.24"
     },
     {
         "title": "Leave Me Alone!: A Good Inside Story About Deeply Feeling Kids",
@@ -245,25 +259,11 @@
         "price": "$16.59"
     },
     {
-        "title": "My First Library: Boxset of 10 Board Books for Kids",
-        "author": "Wonder House Books",
-        "rating": "4.6 out of 5 stars",
-        "rating_count": "88,997",
-        "price": "$14.99"
-    },
-    {
-        "title": "You Better Believe I'm Gonna Talk About It: A Bold and Funny Story of Reality TV Fame, Loss, and Reinvention",
-        "author": "Lisa Rinna",
-        "rating": "3.8 out of 5 stars",
-        "rating_count": "28",
-        "price": "$20.98"
-    },
-    {
-        "title": "Occult Feminism: The Secret History of Women's Liberation",
-        "author": "Rachel Wilson",
-        "rating": "4.3 out of 5 stars",
-        "rating_count": "267",
-        "price": "$16.95"
+        "title": "Cozy Friends: Coloring Book for Adults and Teens Featuring Super Cute Animal Characters with Easy and Simple Designs for Relaxation",
+        "author": "Coco Wyo",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "10,749",
+        "price": "$9.99"
     },
     {
         "title": "Goodnight Moon: A Beloved, Lulling Bedtime Story About a Little Bunny for Children (Ages 0-4)",
@@ -273,60 +273,18 @@
         "price": "$5.83"
     },
     {
-        "title": "Guess How Much I Love You: (The Heartwarming Tale of Little Nutbrown Hare Loving Right Up to the Moon and Back - An Ideal Baby Shower Gift & Easter Basket Stuffer for Babies & Toddlers)",
-        "author": "Sam McBratney",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "13,841",
-        "price": "$5.37"
+        "title": "Tui T. Sutherland",
+        "author": "Tui T. Sutherland",
+        "rating": "No Rating",
+        "rating_count": "0",
+        "price": "$16.59"
     },
     {
-        "title": "If There Is No God: A Study of God and Objective Morality",
-        "author": "Dennis Prager",
-        "rating": "4.2 out of 5 stars",
-        "rating_count": "22",
-        "price": "$32.99"
-    },
-    {
-        "title": "The Cat in the Hat",
-        "author": "Dr. Seuss",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "22,121",
-        "price": "$5.98"
-    },
-    {
-        "title": "Cozy Friends: Coloring Book for Adults and Teens Featuring Super Cute Animal Characters with Easy and Simple Designs for Relaxation",
-        "author": "Coco Wyo",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "10,749",
-        "price": "$9.99"
-    },
-    {
-        "title": "Scholastic Flash Cards: Sight Words",
-        "author": "Scholastic",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "33,091",
-        "price": "$3.07"
-    },
-    {
-        "title": "The Going To Bed Book",
-        "author": "Sandra Boynton",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "19,698",
-        "price": "$3.28"
-    },
-    {
-        "title": "Fox in Socks",
-        "author": "Dr. Seuss",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "17,452",
-        "price": "$4.53"
-    },
-    {
-        "title": "Where's Spot?: A Lift-the-Flap Book",
-        "author": "Eric Hill",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "36,104",
-        "price": "$4.25"
+        "title": "You Better Believe I'm Gonna Talk About It: A Bold and Funny Story of Reality TV Fame, Loss, and Reinvention",
+        "author": "Lisa Rinna",
+        "rating": "3.6 out of 5 stars",
+        "rating_count": "30",
+        "price": "$20.98"
     },
     {
         "title": "Stress Relief: Coloring Book for Adults and Kids, Bold and Easy, Simple and Big Designs for Relaxation Featuring Animals, Landscape, Flowers, Patterns, Cute Things And Many More",
@@ -336,53 +294,46 @@
         "price": "$9.99"
     },
     {
-        "title": "Oh, Baby, the Places You'll Go! (Dr. Seuss Nursery Collection)",
-        "author": "Tish Rabe",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "7,549",
-        "price": "$5.49"
-    },
-    {
-        "title": "Tui T. Sutherland",
-        "author": "Tui T. Sutherland",
-        "rating": "No Rating",
-        "rating_count": "0",
-        "price": "$16.59"
-    },
-    {
-        "title": "Green Eggs and Ham",
-        "author": "Dr. Seuss",
+        "title": "Guess How Much I Love You: (The Heartwarming Tale of Little Nutbrown Hare Loving Right Up to the Moon and Back - An Ideal Baby Shower Gift & Easter Basket Stuffer for Babies & Toddlers)",
+        "author": "Sam McBratney",
         "rating": "4.9 out of 5 stars",
-        "rating_count": "26,949",
-        "price": "$5.98"
+        "rating_count": "13,841",
+        "price": "$5.37"
     },
     {
-        "title": "The Only Living Trusts Book You’ll Ever Need: How to Make Your Own Living Trust, Avoid Probate & Protect Your Heirs (Plus Protect Your Assets & Save Thousands on Taxes) (Wealth Strategy)",
-        "author": "Garrett Monroe",
-        "rating": "4.5 out of 5 stars",
-        "rating_count": "1,714",
-        "price": "$24.95"
-    },
-    {
-        "title": "Construction Site Spring Delight: An Easter Lift-the-Flap Book (Goodnight Construction Site)",
-        "author": "Sherri Duskey Rinker",
+        "title": "The Going To Bed Book",
+        "author": "Sandra Boynton",
         "rating": "4.8 out of 5 stars",
-        "rating_count": "1,386",
-        "price": "$6.54"
+        "rating_count": "19,698",
+        "price": "$3.28"
     },
     {
-        "title": "I Love You Like No Otter: A Funny and Sweet Animal Board Book for Babies and Toddlers this Easter (Punderland)",
-        "author": "Rose Rossner",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "14,872",
-        "price": "$4.56"
+        "title": "Scholastic Flash Cards: Sight Words",
+        "author": "Scholastic",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "33,091",
+        "price": "$3.07"
     },
     {
         "title": "The Last Letter",
         "author": "Rebecca Yarros",
         "rating": "4.7 out of 5 stars",
-        "rating_count": "166,239",
+        "rating_count": "166,241",
         "price": "$9.85"
+    },
+    {
+        "title": "Where's Spot?: A Lift-the-Flap Book",
+        "author": "Eric Hill",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "36,104",
+        "price": "$4.25"
+    },
+    {
+        "title": "The Cat in the Hat",
+        "author": "Dr. Seuss",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "22,121",
+        "price": "$5.98"
     },
     {
         "title": "Murdle: Volume 1",
@@ -392,6 +343,27 @@
         "price": "$12.78"
     },
     {
+        "title": "Construction Site Spring Delight: An Easter Lift-the-Flap Book (Goodnight Construction Site)",
+        "author": "Sherri Duskey Rinker",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "1,386",
+        "price": "$6.54"
+    },
+    {
+        "title": "Fox in Socks",
+        "author": "Dr. Seuss",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "17,452",
+        "price": "$4.53"
+    },
+    {
+        "title": "The Only Living Trusts Book You’ll Ever Need: How to Make Your Own Living Trust, Avoid Probate & Protect Your Heirs (Plus Protect Your Assets & Save Thousands on Taxes) (Wealth Strategy)",
+        "author": "Garrett Monroe",
+        "rating": "4.5 out of 5 stars",
+        "rating_count": "1,714",
+        "price": "$24.95"
+    },
+    {
         "title": "The Psychology of Money: Timeless lessons on wealth, greed, and happiness",
         "author": "Morgan Housel",
         "rating": "4.7 out of 5 stars",
@@ -399,60 +371,25 @@
         "price": "$10.99"
     },
     {
-        "title": "TIKBOOKS Murphy’s Law life principles for children：A comprehensive guide tobenefit a lifetime",
-        "author": "Doris Walton",
-        "rating": "4.5 out of 5 stars",
-        "rating_count": "274",
-        "price": "$25.00"
-    },
-    {
-        "title": "Oh, the Places You'll Go!",
-        "author": "Dr. Seuss",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "53,715",
-        "price": "$8.64"
+        "title": "Oh, Baby, the Places You'll Go! (Dr. Seuss Nursery Collection)",
+        "author": "Tish Rabe",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "7,549",
+        "price": "$5.49"
     },
     {
         "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman",
         "rating": "4.7 out of 5 stars",
-        "rating_count": "56,491",
+        "rating_count": "56,493",
         "price": "$14.98"
     },
     {
-        "title": "Llama Llama Red Pajama",
-        "author": "Anna Dewdney",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "14,366",
-        "price": "$4.17"
-    },
-    {
-        "title": "Dog Man: Big Jim Believes: A Graphic Novel (Dog Man #14): From the Creator of Captain Underpants",
-        "author": "Dav Pilkey",
-        "rating": "4.7 out of 5 stars",
-        "rating_count": "3,137",
-        "price": "$8.00"
-    },
-    {
-        "title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
-        "author": "Jonathan Haidt",
-        "rating": "4.6 out of 5 stars",
-        "rating_count": "12,022",
-        "price": "$16.98"
-    },
-    {
-        "title": "Rose Book of Bible Charts, Maps, and Time Lines",
-        "author": "Rose Publishing",
+        "title": "Green Eggs and Ham",
+        "author": "Dr. Seuss",
         "rating": "4.9 out of 5 stars",
-        "rating_count": "9,107",
-        "price": "$33.20"
-    },
-    {
-        "title": "Large Print Easy Color & Frame - Calm (Stress Free Coloring Book)",
-        "author": "New Seasons",
-        "rating": "4.7 out of 5 stars",
-        "rating_count": "6,970",
-        "price": "$6.42"
+        "rating_count": "26,949",
+        "price": "$5.98"
     },
     {
         "title": "Emily Brontë",
@@ -462,18 +399,46 @@
         "price": "$8.00"
     },
     {
-        "title": "The Widow: A Novel",
-        "author": "John Grisham",
-        "rating": "4.4 out of 5 stars",
-        "rating_count": "58,071",
-        "price": "$13.87"
+        "title": "If There Is No God: A Study of God and Objective Morality",
+        "author": "Dennis Prager",
+        "rating": "4.2 out of 5 stars",
+        "rating_count": "22",
+        "price": "$32.99"
     },
     {
-        "title": "Dr. Seuss's Beginner Book Boxed Set Collection: The Cat in the Hat; One Fish Two Fish Red Fish Blue Fish; Green Eggs and Ham; Hop on Pop; Fox in Socks",
+        "title": "I Love You Like No Otter: A Funny and Sweet Animal Board Book for Babies and Toddlers this Easter (Punderland)",
+        "author": "Rose Rossner",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "14,872",
+        "price": "$4.56"
+    },
+    {
+        "title": "Llama Llama Red Pajama",
+        "author": "Anna Dewdney",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "14,366",
+        "price": "$4.17"
+    },
+    {
+        "title": "Oh, the Places You'll Go!",
         "author": "Dr. Seuss",
         "rating": "4.9 out of 5 stars",
-        "rating_count": "25,840",
-        "price": "$26.47"
+        "rating_count": "53,715",
+        "price": "$8.64"
+    },
+    {
+        "title": "TIKBOOKS Murphy’s Law life principles for children：A comprehensive guide tobenefit a lifetime",
+        "author": "Doris Walton",
+        "rating": "4.5 out of 5 stars",
+        "rating_count": "274",
+        "price": "$25.00"
+    },
+    {
+        "title": "Large Print Easy Color & Frame - Calm (Stress Free Coloring Book)",
+        "author": "New Seasons",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "6,970",
+        "price": "$6.42"
     },
     {
         "title": "The 48 Laws of Power",
@@ -483,11 +448,53 @@
         "price": "$13.99"
     },
     {
-        "title": "Stop, in the Name of God: Why Honoring the Sabbath Will Transform Your Life",
-        "author": "Charlie Kirk",
+        "title": "Dog Man: Big Jim Believes: A Graphic Novel (Dog Man #14): From the Creator of Captain Underpants",
+        "author": "Dav Pilkey",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "3,137",
+        "price": "$8.00"
+    },
+    {
+        "title": "Rose Book of Bible Charts, Maps, and Time Lines",
+        "author": "Rose Publishing",
         "rating": "4.9 out of 5 stars",
-        "rating_count": "1,114",
-        "price": "$29.99"
+        "rating_count": "9,107",
+        "price": "$33.20"
+    },
+    {
+        "title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+        "author": "Jonathan Haidt",
+        "rating": "4.6 out of 5 stars",
+        "rating_count": "12,022",
+        "price": "$16.98"
+    },
+    {
+        "title": "Dr. Seuss's Beginner Book Boxed Set Collection: The Cat in the Hat; One Fish Two Fish Red Fish Blue Fish; Green Eggs and Ham; Hop on Pop; Fox in Socks",
+        "author": "Dr. Seuss",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "25,840",
+        "price": "$26.47"
+    },
+    {
+        "title": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "author": "Don Miguel Ruiz",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "120,149",
+        "price": "$7.05"
+    },
+    {
+        "title": "The Widow: A Novel",
+        "author": "John Grisham",
+        "rating": "4.4 out of 5 stars",
+        "rating_count": "58,071",
+        "price": "$13.87"
+    },
+    {
+        "title": "The Big Book of Silly Jokes for Kids",
+        "author": "Carole P. Roman",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "25,935",
+        "price": "$5.44"
     },
     {
         "title": "The Lorax",
@@ -497,18 +504,32 @@
         "price": "$7.00"
     },
     {
-        "title": "The Crossroads (A Joe Pickett Novel)",
-        "author": "C.J. Box",
-        "rating": "4.6 out of 5 stars",
-        "rating_count": "618",
-        "price": "$21.95"
+        "title": "Children's encyclopedia \"Why 100,000?\" Extracurricular reading for primary school students (Building The Ultimate Brain)",
+        "author": "Doris Walton",
+        "rating": "3.5 out of 5 stars",
+        "rating_count": "7",
+        "price": "$31.50"
     },
     {
-        "title": "Black AF History: The Un-Whitewashed Story of America―The New York Times Bestselling Retelling of US History Through the Experiences of Black Americans",
-        "author": "Michael Harriot",
+        "title": "Stop, in the Name of God: Why Honoring the Sabbath Will Transform Your Life",
+        "author": "Charlie Kirk",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "1,114",
+        "price": "$29.99"
+    },
+    {
+        "title": "Llama Llama Easter Egg",
+        "author": "Anna Dewdney",
         "rating": "4.8 out of 5 stars",
-        "rating_count": "4,094",
-        "price": "$20.99"
+        "rating_count": "6,272",
+        "price": "$5.99"
+    },
+    {
+        "title": "Babies Love Colors - A First Lift-a-Flap Board Book for Babies and Toddlers Learning about Colors",
+        "author": "Michelle Rhodes-Conway",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "4,850",
+        "price": "$3.71"
     },
     {
         "title": "One Fish Two Fish Red Fish Blue Fish",
@@ -525,60 +546,11 @@
         "price": "$8.40"
     },
     {
-        "title": "Children's encyclopedia \"Why 100,000?\" Extracurricular reading for primary school students (Building The Ultimate Brain)",
-        "author": "Doris Walton",
-        "rating": "3.5 out of 5 stars",
-        "rating_count": "7",
-        "price": "$31.50"
-    },
-    {
-        "title": "Llama Llama Easter Egg",
-        "author": "Anna Dewdney",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "6,272",
-        "price": "$5.99"
-    },
-    {
-        "title": "The Big Book of Silly Jokes for Kids",
-        "author": "Carole P. Roman",
+        "title": "A Navy SEAL's Bug-In Guide: How to Turn Your House into the Safest Place on Earth",
+        "author": "Joel Lambert",
         "rating": "4.7 out of 5 stars",
-        "rating_count": "25,935",
-        "price": "$5.44"
-    },
-    {
-        "title": "If the Tree Could Speak: The Story of the Cross That Saw It All – The Perfect Christian Gift for Lent and Easter",
-        "author": "Tim Tebow",
-        "rating": "5.0 out of 5 stars",
-        "rating_count": "20",
-        "price": "$0.00"
-    },
-    {
-        "title": "The Four Agreements: A Practical Guide to Personal Freedom",
-        "author": "Don Miguel Ruiz",
-        "rating": "4.7 out of 5 stars",
-        "rating_count": "120,150",
-        "price": "$7.05"
-    },
-    {
-        "title": "The Wonderful Things You Will Be",
-        "author": "Emily Winfield Martin",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "32,376",
-        "price": "$9.45"
-    },
-    {
-        "title": "The Long Game: Now Streaming on Crave and HBO Max (Game Changers, 6)",
-        "author": "Rachel Reid",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "40,576",
-        "price": "$16.85"
-    },
-    {
-        "title": "Runnin' Down a Dream: How to Thrive in a Career You Actually Love",
-        "author": "Bill Gurley",
-        "rating": "5.0 out of 5 stars",
-        "rating_count": "10",
-        "price": "$26.41"
+        "rating_count": "3,926",
+        "price": "$37.00"
     },
     {
         "title": "There Was an Old Lady Who Swallowed a Clover!",
@@ -588,18 +560,18 @@
         "price": "$5.82"
     },
     {
+        "title": "Black AF History: The Un-Whitewashed Story of America―The New York Times Bestselling Retelling of US History Through the Experiences of Black Americans",
+        "author": "Michael Harriot",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "4,094",
+        "price": "$20.99"
+    },
+    {
         "title": "The Bible in 52 Weeks: A Yearlong Bible Study for Women",
         "author": "Dr. Kimberly D. Moore",
         "rating": "4.7 out of 5 stars",
         "rating_count": "31,143",
         "price": "$7.85"
-    },
-    {
-        "title": "Babies Love Colors - A First Lift-a-Flap Board Book for Babies and Toddlers Learning about Colors",
-        "author": "Michelle Rhodes-Conway",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "4,850",
-        "price": "$3.71"
     },
     {
         "title": "Once Upon a Time: The Captivating Life of Carolyn Bessette-Kennedy",
@@ -609,11 +581,32 @@
         "price": "$13.49"
     },
     {
-        "title": "Chicka Chicka Boom Boom",
-        "author": "Bill Martin Jr.",
+        "title": "The Crossroads (A Joe Pickett Novel)",
+        "author": "C.J. Box",
+        "rating": "4.6 out of 5 stars",
+        "rating_count": "619",
+        "price": "$21.95"
+    },
+    {
+        "title": "The Long Game: Now Streaming on Crave and HBO Max (Game Changers, 6)",
+        "author": "Rachel Reid",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "40,576",
+        "price": "$16.85"
+    },
+    {
+        "title": "The Wonderful Things You Will Be",
+        "author": "Emily Winfield Martin",
         "rating": "4.9 out of 5 stars",
-        "rating_count": "41,458",
-        "price": "$3.65"
+        "rating_count": "32,376",
+        "price": "$9.45"
+    },
+    {
+        "title": "Runnin' Down a Dream: How to Thrive in a Career You Actually Love",
+        "author": "Bill Gurley",
+        "rating": "5.0 out of 5 stars",
+        "rating_count": "10",
+        "price": "$26.41"
     },
     {
         "title": "The Action Bible: God's Redemptive Story (Action Bible Series)",
@@ -630,25 +623,25 @@
         "price": "$23.09"
     },
     {
+        "title": "Cozy Corner: Coloring Book for Adults and Kids (Cozy Spaces Coloring)",
+        "author": "Coco Wyo",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "1,535",
+        "price": "$7.18"
+    },
+    {
+        "title": "If the Tree Could Speak: The Story of the Cross That Saw It All – The Perfect Christian Gift for Lent and Easter",
+        "author": "Tim Tebow",
+        "rating": "5.0 out of 5 stars",
+        "rating_count": "20",
+        "price": "$0.00"
+    },
+    {
         "title": "See You Later, Alligator",
         "author": "Sally Hopgood",
         "rating": "4.8 out of 5 stars",
         "rating_count": "3,761",
         "price": "$8.91"
-    },
-    {
-        "title": "The Housemaid Is Watching",
-        "author": "Freida McFadden",
-        "rating": "4.2 out of 5 stars",
-        "rating_count": "288,658",
-        "price": "$11.99"
-    },
-    {
-        "title": "A Navy SEAL's Bug-In Guide: How to Turn Your House into the Safest Place on Earth",
-        "author": "Joel Lambert",
-        "rating": "4.7 out of 5 stars",
-        "rating_count": "3,926",
-        "price": "$37.00"
     },
     {
         "title": "Sunrise on the Reaping (The Hunger Games)",
@@ -658,18 +651,32 @@
         "price": "$12.00"
     },
     {
+        "title": "The Housemaid Is Watching",
+        "author": "Freida McFadden",
+        "rating": "4.2 out of 5 stars",
+        "rating_count": "288,658",
+        "price": "$12.58"
+    },
+    {
+        "title": "Little Corner: Coloring Book for Adults and Teens, Super Cute Designs of Cozy, Hygge Spaces for Relaxation (Cozy Spaces Coloring)",
+        "author": "Coco Wyo",
+        "rating": "4.8 out of 5 stars",
+        "rating_count": "10,491",
+        "price": "$9.99"
+    },
+    {
+        "title": "Chicka Chicka Boom Boom",
+        "author": "Bill Martin Jr.",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "41,458",
+        "price": "$3.65"
+    },
+    {
         "title": "What to Expect When You're Expecting: (Updated in 2025)",
         "author": "Heidi Murkoff",
         "rating": "4.8 out of 5 stars",
         "rating_count": "30,447",
         "price": "$9.43"
-    },
-    {
-        "title": "Still Lost: Tales from 2080",
-        "author": "Unknown Author",
-        "rating": "4.9 out of 5 stars",
-        "rating_count": "146",
-        "price": "$11.99"
     },
     {
         "title": "Paint by Sticker Kids: Easter: Create 10 Pictures One Sticker at a Time!",
@@ -679,24 +686,17 @@
         "price": "$5.77"
     },
     {
-        "title": "World of Eric Carle, Around the Farm 30-Button Animal Sound Book - Great for First Words - PI Kids",
-        "author": "PI Kids",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "26,812",
+        "title": "Carl's Doomsday Scenario (Dungeon Crawler Carl)",
+        "author": "Matt Dinniman",
+        "rating": "4.7 out of 5 stars",
+        "rating_count": "45,450",
+        "price": "$18.06"
+    },
+    {
+        "title": "Still Lost: Tales from 2080",
+        "author": "Unknown Author",
+        "rating": "4.9 out of 5 stars",
+        "rating_count": "146",
         "price": "$11.99"
-    },
-    {
-        "title": "Cozy Corner: Coloring Book for Adults and Kids (Cozy Spaces Coloring)",
-        "author": "Coco Wyo",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "1,535",
-        "price": "$7.18"
-    },
-    {
-        "title": "Bob Books - Set 1: Beginning Readers Box Set | Phonics, Ages 4 and up, Kindergarten (Stage 1: Starting to Read)",
-        "author": "Bobby Lynn Maslen",
-        "rating": "4.8 out of 5 stars",
-        "rating_count": "22,390",
-        "price": "$11.29"
     }
 ]
