@@ -1,5 +1,5 @@
 # Amazon Bestsellers: Data Pipeline and Analytics API
-**Tech Challenge - Phase 1 | Machine Learning Engineering**
+**Tech Challenge | Machine Learning Engineering**
 
 This project provides a containerized REST API built with FastAPI and Selenium. It automates the extraction of the Top 100 Amazon Bestselling books, persists the collected data in a local JSON cache, and offers specialized analytical endpoints for market research.
 
@@ -71,7 +71,7 @@ The most stable method. It bundles a Linux-compatible Edge browser internally.
     ```
 3.  **Access:** `http://localhost:8000/docs`
 
-### Option 3: Cloud Deployment (Railway/Render)
+### Option 3: Cloud Deployment (Render)
 For remote testing without local installation:
 **Live Docs:** `https://tech-challenge-fiap-hhae.onrender.com/docs`
 
